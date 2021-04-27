@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+
+  </head>
+  <body>
+    <button id="button1">点击按钮1</button>
+    <button id="button2">点击按钮2</button>
+    <button id="button3">点击按钮3</button>
+  </body>
+  <script>
+    var button1 = document.getElementById('button1');
+    var button2 = document.getElementById('button2');
+    var button3 = document.getElementById('button3');
+
+    var setCommand = function(button, commonnd) {
+      button.onclick = function() {
+        command.excute()
+      }
+    }
+  </script>
+</html>
